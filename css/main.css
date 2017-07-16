@@ -1,0 +1,77 @@
+
+
+/******************************************/
+/* Global */
+
+:root{
+	--light-black: #212121;
+	--cloudy-white: #fafafa;
+}
+
+body{
+	background-color: var(--cloudy-white);
+}
+
+section{
+	border-bottom: 4px solid var(--light-black);
+	background-color: var(--cloudy-white);
+}
+
+#home{
+	/*background-color: var(--light-black);*/
+	min-height: 100vh;
+}
+
+#about{
+	/*background-color: var(--cloudy-white);*/
+	min-height: 40vh;
+}
+
+#previous-trips{
+	/*background-color: var(--light-black);*/
+	min-height: 100vh;
+}
+
+#social{
+	/*background-color: var(--cloudy-white);*/
+	min-height: 100vh;
+}
+
+#footer{
+	/*background-color: var(--light-black);*/
+	min-height: 100vh;
+}
+
+
+/******************************************/
+/* Home */
+
+nav{
+	background-color: var(--light-black);
+}
+
+.landing-content{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+
+/******************************************/
+/* About */
+
+
+/******************************************/
+/* Previous Trips */
+
+
+/******************************************/
+/* Social */
+
+
+/******************************************/
+/* Footer */
+
+
