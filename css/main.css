@@ -18,8 +18,12 @@ section{
 }
 
 #home{
-	/*background-color: var(--light-black);*/
-	min-height: 100vh;
+	width: 100%;
+	height: 100vh;
+	background-image: url("../asset/landing_1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
 }
 
 #about{
@@ -47,7 +51,18 @@ section{
 /* Home */
 
 nav{
-	background-color: var(--light-black);
+	line-height: 72px;
+	/*	background-color: var(--light-black);*/
+}
+
+nav a.brand-logo{
+	line-height: 72px;
+	font-family: 'Alegreya Sans', sans-serif;
+}
+
+nav ul li span{
+	font-family: 'Alegreya Sans', sans-serif;
+	line-height: 72px;
 }
 
 .landing-content{
