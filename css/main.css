@@ -13,7 +13,7 @@ body{
 }
 
 section{
-	border-bottom: 4px solid var(--light-black);
+	/*border-bottom: 4px solid var(--light-black);*/
 	background-color: var(--cloudy-white);
 }
 
@@ -24,7 +24,6 @@ h1,h2,h3,h4,h5{
 
 p{
 	font-family: 'Alegreya Sans', sans-serif;	
-	color: #fff;
 	font-size: 2em;
 }
 
@@ -35,11 +34,12 @@ p{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: bottom;
+	background-attachment: fixed;
 }
 
 #about{
 	/*background-color: var(--cloudy-white);*/
-	min-height: 40vh;
+	min-height: 50vh;
 }
 
 #previous-trips{
