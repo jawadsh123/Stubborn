@@ -47,6 +47,69 @@ p{
 	min-height: 100vh;
 }
 
+.prev-trip-1{
+	height: 70vh;
+	background-image: url("../asset/trip_1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.prev-trip-2{
+	height: 70vh;
+	background-image: url("../asset/trip_2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.prev-trip-3{
+	height: 70vh;
+	background-image: url("../asset/trip_3.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.prev-trip-4{
+	height: 70vh;
+	background-image: url("../asset/trip_4.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.prev-trip-1:hover .trip-content{
+	display: block;
+	transition-duration: .5s;
+}
+
+.prev-trip-2:hover .trip-content{
+	display: block;
+	transition-duration: .5s;
+}
+
+.prev-trip-3:hover .trip-content{
+	display: block;
+	transition-duration: .5s;
+}
+
+.prev-trip-4:hover .trip-content{
+	display: block;
+	transition-duration: .5s;
+}
+.trip-content{
+	height: 100%;
+	display: none;
+	padding: 10px;
+	background-color: rgba(0,0,0,0.5);
+	transition-duration: 0.2s;
+}
+
+#previous-trips .row .col{
+	padding: 0;
+}
+
+#previous-trips .row .col img.responsive-img{
+	margin-bottom: -5px;
+}
+
 #social{
 	/*background-color: var(--cloudy-white);*/
 	min-height: 100vh;
